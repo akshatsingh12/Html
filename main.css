@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w1 {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/6c884f48-f7d8-4a59-9d25-b7c138813aee/ed2b002b-c6c5-459c-9c97-753f50e8286b/IN-en-20230807-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    height: 40rem;
+    width: 100%;
+    margin-top: -7rem;
+}
+.qu {
+    height: 2rem;
+    width: 5rem;
+}
+header {
+    padding-left: 5rem;
+    display: flex;
+}
+.q1 {
+    height: 7rem;
+    width: 6rem;
+}
+.lang {
+    margin-left: 40rem;
+    margin-top: 2rem;
+}
+.lang:hover {
+    outline: 3px solid rgb(26, 25, 25);
+    outline-offset: 5px;
+    outline-style: groove;
+    border-radius: 3px;
+}
+.panel {
+    padding: 10rem 15rem;
+    justify-content: center;
+    justify-items: center;
+}
+.panel h1,
+.panel h5 {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: white;
+}
+.panel input {
+    padding: 1rem;
+    height: 3rem;
+    border: 1px solid gray;
+    width: auto;
+    margin-left: 13.5rem;
+    margin-top: 1.5rem;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+.panel button {
+    padding: 0.7rem;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-left: 1rem;
+}
+.panel button:hover {
+    filter: brightness(.8);
+}
+.panel input::placeholder {
+    color: white;
+}
+.page1 {
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+.a1 {
+    color: white;
+    text-align: center;
+    height: 26rem;
+    width: 36%;
+    margin: 2rem 6rem;
+    padding: 8rem 2rem;
+}
+.a2 {
+    z-index: 3;
+    position: relative;
+}
+.a2 img,
+.a2 video {
+    position: absolute;
+}
+.a2 video {
+    height: 29rem;
+    width: 30rem;
+    margin-left: 5rem;
+}
+hr {
+    margin-top: -1rem;
+    margin-bottom: 0.2rem;
+    border: 10px solid rgb(0, 0, 0);
+    opacity: 0.5;
+    background-color: black;
+}
+.page2 {
+    height: 30rem;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.b1a {
+    margin-top: -3rem;
+}
+.b1 {
+    position: relative;
+    width: 35rem;
+}
+
+.b1 img {
+    width: 34rem;
+    margin-top: 3rem;
+    height: 24rem;
+}
+
+.anim1 {
+    height: 5rem !important;
+    width: 4rem !important;
+    margin: 1rem 1rem !important;
+}
+
+.b1 img,
+.b1 .anim {
+    position: absolute;
+}
+
+.b2 {
+    height: 16rem;
+    width: 26rem;
+    padding: 2rem 2rem;
+    color: white;
+    background-color: black;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+
+.anim {
+    display: flex;
+    height: 7rem;
+    width: 19rem;
+    border: 3px solid rgba(114, 112, 112, 0.5);
+    border-radius: 14px;
+    margin: 19rem 7.5rem;
+    background-color: black;
+}
+
+.naming1 {
+    margin: 1.3rem 0rem 0rem 6rem;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.b3 {
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+    background-size: cover;
+    height: 2.5rem;
+    width: 2rem;
+    margin-top: -3rem;
+    margin-left: 9.8rem;
+    z-index: 5;
+}
+
+@media screen and (max-width: 1298px) {
+    .a2 video {
+        height: 22rem;
+        width: 23rem;
+        margin-left: 4rem;
+    }
+
+    .e3 {
+        width: 29rem;
+        height: auto;
+    }
+
+    .lang {
+        margin-left: 40rem;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .b1 {
+        position: relative;
+        width: 32rem;
+    }
+    .lang {
+        margin-left: 15rem;
+        margin-top: 2rem;
+    }
+    .panel {
+        padding: 7rem 12rem;
+        justify-content: center;
+        justify-items: center;
+    }
+    .panel button {
+        padding: 0.7rem;
+        background-color: red;
+        color: white;
+        border: 1px solid black;
+        border-radius: 4px;
+        margin-top: 1rem;
+        margin-left: 8rem;
+    }
+    .panel input {
+        padding: 1rem;
+        height: 3rem;
+        border: 1px solid gray;
+        width: auto;
+        margin-left: 5rem;
+        margin-top: 1.5rem;
+        background-color: rgba(0, 0, 0, .5);
+        color: white;
+    }
+    .e3 {
+        width: 20rem;
+        margin-top: 9rem;
+        margin-left: -4rem;
+        height: auto;
+    }
+    .a2 video {
+        height: 9rem;
+        width: 14rem;
+        margin-top: 12rem;
+        margin-left: -1rem;
+    }
+    .b1a {
+        margin-top: 4rem !important;
+        height: 18rem !important;
+        width: 28rem !important;
+        margin-left: 1rem;
+    }
+    .anim {
+        margin: 19rem 5.5rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .anim {
+        display: flex;
+    height: 7rem;
+    width: 17rem;
+    border: 3px solid rgba(114, 112, 112, 0.5);
+    border-radius: 14px;
+    margin: 20rem 1rem;
+    background-color: black;
+    }
+    .naming1 {
+        margin: 1.3rem 0rem 0rem 4.3rem;
+    }
+    .anim1 {
+        height: 4rem !important;
+        width: 3rem !important;
+        margin: 1.3rem 0.5rem !important;
+    }
+    .b1 img {
+        width: 29rem;
+        margin-top: 3rem;
+        height: 24rem;
+    }
+    .lang {
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+    .panel {
+        padding: 7rem 8rem;
+        justify-items: center;
+    }
+    .panel button {
+        padding: 0.7rem;
+        background-color: red;
+        color: white;
+        border: 1px solid black;
+        border-radius: 4px;
+        margin-top: 1rem;
+        margin-left: 4rem;
+    }
+ .panel input {
+        padding: 1rem 2rem;
+        height: 3rem;
+        border: 1px solid gray;
+        width: auto;
+        margin-left: 0rem;
+        margin-top: 1.5rem;
+        background-color: rgba(0, 0, 0, .5);
+        color: white;
+    }
+    .e3 {
+        width: 20rem;
+        margin-top: 9rem;
+        margin-left: -6rem;
+        height: auto;
+    }
+    .a2 video {
+        height: 18rem;
+        width: 14rem;
+        margin-left: -3.2rem;
+        margin-top: 7rem;
+    }
+    h5 {
+        font-size: 1rem;
+    }
+    .a1 {
+        color: white;
+        text-align: center;
+        height: 26rem;
+        width: 36%;
+        margin: 2rem 1rem;
+        padding: 8rem 2rem;
+    }  
+.b2{
+    z-index: 5;
+}
+    .e3 {
+        width: 20rem;
+        margin-top: 9rem;
+        margin-left: -2rem;
+        height: auto;
+    }
+    .a2 video {
+        height: 18rem;
+        width: 14rem;
+        margin-left: 0.8rem;
+        margin-top: 7rem;
+    }
+    .b1a {
+        margin-top: 3rem;
+        margin-left: -5rem;
+        height: 20rem;
+        width: 30rem;
+    }
+}
+@media screen and (max-width: 500px){
+    .e3{
+        width: 17rem;
+        margin-top: 3rem;
+    }
+    .a1 {
+        color: white;
+        text-align: center;
+        height: 14rem;
+        width: 36%;
+        margin: 2rem 1rem;
+        padding: 2rem 1rem;
+    }.a2 video {
+        height: 17rem;
+        width: 14rem;
+        margin-left: 0.3rem;
+        margin-top: 1rem;
+    }
+    .panel button {
+        margin-left: 2rem;
+    }
+    header {
+        padding-left: 2rem;}
+        .lang {
+            margin-left: 3rem;
+            margin-top: 2rem;
+        }
+        .panel input{
+            margin-left: -1rem;
+        }
+        .panel {
+            padding: 7rem 6rem;
+        }
+        .b1a {
+            margin-top: 7rem !important;
+            height: 14rem !important;
+            width: 23rem !important;
+            margin-left: -3.5rem !important;
+        }
+        .anim {
+            height: 6rem;
+            width: 15rem;
+            margin: 20rem 0.5rem;
+        }
+        .b3{
+            margin-left: 7.8rem;
+        }
+        .b2 {
+            padding: 2rem 1rem;
+            margin: 21rem 0 0 -22rem;
+        }
+        .b1a {
+            margin-top: -2rem !important;
+            height: 14rem !important;
+            width: 21rem !important;
+            margin-left: -4.5rem !important;
+        }
+        .b1 {
+            position: relative;
+            width: 21rem;
+            margin-left: 5rem;
+        }
+        .page2{
+            height: 50rem;
+        }
+        .e3 {
+            width: 13rem;
+            margin-top: 2rem;
+            margin-left: -1rem;
+            height: auto;
+        }
+        .a2 video {
+            height: 11rem;
+            width: 10rem;
+            margin-left: 0.8rem;
+            margin-top: 1rem;
+        }
+        h5 {
+            font-size: .8rem;
+        }
+        .a1 h1{
+            font-size: .7rem;
+        }
+        .anim{
+            margin: 11rem -0.5rem;
+        }
+}
+@media screen and (max-width: 358px){
+    .lang {
+        margin-left: 0rem;
+        margin-top: 2rem;
+        margin-right: -20px;
+    }
+    button{
+        position: absolute;
+        margin-left: 80px;
+    margin-top: 3rem;
+    }
+    .n1{
+        right: -5rem;
+        position: relative;
+    }
+    .panel {
+        padding: 11rem 4rem;
+    }
+    .panel button {
+        margin-left: 3rem;
+    }
+    .b1 {
+        position: relative;
+        margin-top: 10rem;
+        margin-left: 4rem;
+    }
+    .b1a {
+        margin-top: 2rem !important;
+        width: 19.5rem !important;
+    }
+    .a1 {
+        padding: 5rem 0rem;
+        margin: -1rem 7rem;
+    }
+    hr{
+        display: none;
+    }
+    .e3 {
+        position: absolute;
+        margin-top: 14rem;
+        margin-left: -5rem;
+    }
+    .a2 video {
+        position: absolute;
+        margin-left: -3.2rem;
+        margin-top: 13rem;
+    }
+    .b2 {
+        margin: 32rem 0 0 -22rem;
+        padding: 2rem 5rem;
+    }
+    .a2 {
+        margin-left: -12rem;
+    }
+    .anim {
+        margin: 14rem -2.5rem;
+    }
+}
